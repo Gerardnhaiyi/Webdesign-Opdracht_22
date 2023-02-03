@@ -1,0 +1,51 @@
+/* Buttons */
+ul
+{
+  color: purple;
+  text-shadow: 3px 3px 3px blue;
+}
+li
+{
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  color: purple;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  background-color: pink;
+  border-radius: 5px;
+}
+li:hover
+{
+  background-color: lightgreen;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+}
+li:active
+{
+  color: white;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+  background-color: purple;
+}
+h1
+{
+  font-family:fantasy;
+}
+/*Footer*/
+footer
+{
+  height: 200px;
+  width: 100%;
+  padding: 90px;
+  text-align: center;
+  background-color: darkorange;
+  color:darkblue;
+}

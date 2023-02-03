@@ -1,0 +1,84 @@
+/* Buttons */
+ul.buttons
+{
+  color: purple;
+  text-shadow: 3px 3px 3px blue;
+}
+li.buttons
+{
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  color: purple;
+  border-left: 2px solid green;
+  border-right: 2px solid green;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  background-color: pink;
+  border-radius: 5px;
+}
+li.buttons:hover
+{
+  background-color: lightgreen;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+}
+li.buttons:active
+{
+  color: white;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink;
+  background-color: purple;
+}
+/*Header*/
+h3
+{
+  text-align: center;
+  color:bisque;
+  background-color:purple;
+  opacity: 0.9;
+  font-family: 'Yellowtail', cursive;
+  width: 300px;
+  border-style: double;
+  border-width: thick;
+  border-color:red;
+  border-radius: 10px;
+}
+
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+/* list */
+ul.lijstje
+{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px; 
+  box-shadow: inset 5px 5px 5px lightsalmon; 
+}
+li.lijstje
+{
+  font-family: 'Arial', bold;
+}
+
+/*Footer*/
+footer
+{
+  height: 200px;
+  width: 100%;
+  padding: 90px;
+  text-align: center;
+  background-color: darkorange;
+  color:darkblue;
+}
